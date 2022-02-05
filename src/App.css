@@ -1,38 +1,90 @@
-.App {
+/* .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: darkslategrey;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sbox {
+  margin: 5rem;
+  width: 205px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchBox{
+  background-color: aquamarine;
+  
+  
 }
-
-.App-link {
-  color: #61dafb;
+.styleBtn{
+  background-color: darkgreen;
 }
+.styleBreed{
+  background-color: darkgray;
+}
+.styleNum{
+  background-color: darkgray;
+}
+.matt {
+  box-shadow: 0 0 10px 0 rgb(247, 198, 198);
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(159, 236, 211);
+} */
+.box{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+.searchbox{
+  text-align: center;
+  padding: 10px;
+}
+.input{
+  font-size: 20px;
+  padding: 7px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.searchbtn{
+  background-color: darkgreen;
+  color: antiquewhite;
+  padding: 8px 20px;
+  float: right;
+  box-shadow: 2 2 2px 2 #000;
+  
+}
+.searchbtn:hover{
+  cursor: pointer;
+  box-shadow: 1 1 5px 1 #162c02;
+}
+.heading{
+  background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 5px;
+
+}
+h1{
+  color: rgb(2, 2, 48);
+  animation: tanu;
+  animation-duration: 6s;
+  font-family: cursive;
+  text-shadow: 1px 1px 3px black;
+}
+@keyframes tanu{
+  0% {color: brown;}
+  10% {color: rgb(109, 41, 41);}
+  20% {color: rgb(8, 49, 37);}
+  30% {color: rgb(16, 78, 22);}
+  40% {color: brown;}
+  50% {color: rgb(22, 10, 10);}
+  60% {color: rgb(66, 48, 8);}
+  70% {color: rgb(95, 6, 67);}
+  80% {color: rgb(58, 48, 48);}
+  90% {color: rgb(7, 38, 59);}
+  100% {color: rgb(62, 92, 14);}
+}
+.body{
+  background-color: lightpink;
 }
